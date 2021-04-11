@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+.encabezado {
+    @apply text-3xl font-bold text-gray-800 mx-2 mb-3;
+}
+
+.card-body {
+    @apply mt-3 text-center md:text-left leading-relaxed;
+}
+
+.card-titulo {
+    @apply text-xs font-bold uppercase text-gray-600;
+}
+
+.card-subtitulo {
+    @apply text-base font-bold text-gray-800;
+}
+
+.card-precio {
+    @apply text-gray-600 text-sm;
+}
+
+.card-idioma {
+    @apply text-gray-500 text-xs;
+}
+
+@tailwind utilities;
